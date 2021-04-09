@@ -1,8 +1,38 @@
-header {
+
+
+body {
+    margin: 0%;
+    width: 100%;
+}
+
+.top-header {
     background-color: salmon;
-    height: 0%;
+    padding: 40px 20px 20px 20px;
+}
+
+.welcome-title {
+    display: inline-block;
 }
 
 nav {
-    display: inline;
+    display: inline-block;
+    font-size: 20px;
+    word-spacing: 30px;
+    margin-left: 20px;
+}
+
+.about-html, .about-css {
+    border: 4px dotted black;
+    margin: 10px;
+    padding: 30px;
+}
+
+.about-html p, .about-css p {
+    font-size: 18px;
+}
+
+.about-html img {
+    width: 150px;
+    height: 150px;
+    float: left;
 }

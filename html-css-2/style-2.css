@@ -127,12 +127,12 @@ p {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    /* box-sizing: content-box; */
+    box-sizing: content-box;
 }
 
 .fish {
     display: block;
     height: 60px;
-    margin: 80px auto 0px auto;
-    /* clear: both; */
+    margin: auto;
+    transform: translateY(30%);
 }

@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-let gitDefinition = 'Git is a software that creates a repository for your files/coding for easier management and trackability of projects'
+const gitDefinition = 'Git is a software that creates a repository for your files/coding for easier management and trackability of projects'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -21,7 +21,7 @@ let gitDefinition = 'Git is a software that creates a repository for your files/
 
 //CODE HERE
 
-let gitHubDefinition = 'GitHub is a site that integrates with your Git repositories, allowing for a location online for you to dump your repos and pull from others'
+const gitHubDefinition = 'GitHub is a site that integrates with your Git repositories, allowing for a location online for you to dump your repos and pull from others'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -39,7 +39,7 @@ let gitHubDefinition = 'GitHub is a site that integrates with your Git repositor
 
 //CODE HERE
 
-let init = {
+const init = {
     description: 'initiates Git to create a repository in the current directory',
     code: 'git init'
 }
@@ -52,7 +52,7 @@ let init = {
 
 //CODE HERE
 
-let clone = {
+const clone = {
     description: 'Clones/copies a repository through a web address or filepath to your current directory',
     code: 'git clone'
 }
@@ -65,7 +65,7 @@ let clone = {
 
 //CODE HERE
 
-let status = {
+const status = {
     description: 'Gets the current status of any commits or changes to repo files',
     code: 'git status'
 }
@@ -78,7 +78,7 @@ let status = {
 
 //CODE HERE
 
-let add = {
+const add = {
     description: 'adds the selected files to the staging area, ready for commit',
     code: 'git add [filename]'
 }
@@ -91,9 +91,9 @@ let add = {
 
 //CODE HERE
 
-let commit = {
-    description = 'commits files in the current staging area to eventually be pushed to the repo. This command is often paired with a comment for clarification',
-    code = 'git commit'
+const commit = {
+    description: 'commits files in the current staging area to eventually be pushed to the repo. This command is often paired with a comment for clarification',
+    code: 'git commit -m'
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -104,9 +104,9 @@ let commit = {
 
 //CODE HERE
 
-let addRemote = {
-    description = 'to my undeerstanding this means you are adding files from another location/web address to your staging area',
-    code = 'git add remote'
+const addRemote = {
+    description: 'to my understanding this means you are adding files from another location/web address to your staging area',
+    code: 'git remote add origin'
 }
 
 //////////////////PROBLEM 9////////////////////
@@ -117,7 +117,7 @@ let addRemote = {
 
 //CODE HERE
 
-let push = {
-    description = 'pushes currently committed files to your git repository',
-    code = 'git push'
+const push = {
+    description: 'pushes currently committed files to your git repository',
+    code: 'git push'
 }

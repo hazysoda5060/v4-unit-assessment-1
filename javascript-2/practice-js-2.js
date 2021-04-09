@@ -20,6 +20,7 @@ let gitDefinition = 'Git is a software that creates a repository for your files/
 */
 
 //CODE HERE
+
 let gitHubDefinition = 'GitHub is a site that integrates with your Git repositories, allowing for a location online for you to dump your repos and pull from others'
 
 //////////////////PROBLEMS 3 - 9////////////////////

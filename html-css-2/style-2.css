@@ -1,0 +1,138 @@
+body {
+    margin: 0%;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(179, 243, 222);
+    padding: 10px 10px 10px 25px;
+}
+
+h2 {
+    text-align: left;
+    margin: 30px 0px 0px 10px;
+}
+
+.rectangle-section, .circle-section, .everything-section {
+    border: dashed 1px;
+    margin: 0px 10px 10px 10px;
+}
+
+.purple-red, .blue-shadow, .pinky {
+    display: inline-block;
+    margin: 15px;
+}
+
+.purple-red {
+    background-color: rgb(97, 0, 97);
+    border: solid 4px red;
+    width: 250px;
+    height: 100px;
+}
+
+.blue-shadow {
+    background-color: blue;
+    border: solid 2px black;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 10px 2px black;
+}
+
+.pinky {
+    background-color: pink;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+}
+
+.head {
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 10px 0px 0px 32px;
+    padding: 0%;
+}
+
+.torso {
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 23px;
+}
+
+.bottom {
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 0px 0px 10px 10px;
+}
+
+.left-eye {
+    height: 20px;
+    margin: 20px 1px 5px 20px;
+}
+
+.right-eye {
+    height: 20px;
+    margin: 20px 10px 5px 1px;
+}
+
+.carrot-head {
+    display: block;
+    height: 20px;
+    margin: 1px 10px 5px 28px;
+}
+
+.torso img {
+    display: block;
+    height: 20px;
+    margin: 12px auto 5px auto;
+}
+
+.sand-box {
+    background-color: rgb(255, 255, 217);
+    border: solid 1px black;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 0%;
+}
+
+.green-circle {
+    border: solid 1px black;
+    background-color: green;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+}
+
+.red-box {
+    background-color: maroon;
+    width: 135px;
+    height: 135px;
+    margin: 38px auto auto auto;
+}
+
+p {
+    text-align: center;
+    color: white;
+    margin: 0%;
+}
+
+.fish-bowl {
+    background-color: blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* box-sizing: content-box; */
+}
+
+.fish {
+    display: block;
+    height: 60px;
+    margin: 80px auto 0px auto;
+    /* clear: both; */
+}

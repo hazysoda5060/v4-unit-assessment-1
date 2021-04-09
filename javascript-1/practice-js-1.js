@@ -259,7 +259,7 @@ function giveMeDoubles(arr, cb) {
   for (i = 0 ; i = arr.length ; i++) {
     arr.push(arr[i])
   }
-  return arr
+  return cb(arr)
 }
 
 //////////////////PROBLEM 18////////////////////

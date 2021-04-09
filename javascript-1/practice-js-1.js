@@ -256,8 +256,8 @@ function isItBob(obj, cb) {
 //CODE HERE
 
 function giveMeDoubles(arr, cb) {
-  for (i = 0 ; i = arr.length ; i++) {
-    arr.push(arr[i])
+  for (i = 0 ; i < arr.length ; i++){
+    arr.splice(i, 1, arr[i] * 2)
   }
   return cb(arr)
 }
@@ -288,3 +288,17 @@ function giveMeDoubles(arr, cb) {
 */
 
 //CODE HERE
+
+function carFactory(make, model, year) {
+  let carInfo = {
+  }
+  carInfo.make = make
+  carInfo.model = model
+  carInfo.year = year
+  if (year > 2018) {
+    carInfo.isNew = true
+  } else {
+    carInfo.isNew = false
+  }
+  return carInfo
+}
